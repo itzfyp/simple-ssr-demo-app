@@ -17,3 +17,7 @@ Run `npm start` at root of the application to run clinet
 Open [http://localhost:3000](http://localhost:3000/) to view it in the browser.
 
 App will be now available to User.
+
+## TODO :
+
+> Docker configuration will be done later time.
