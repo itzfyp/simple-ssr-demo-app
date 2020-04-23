@@ -1,0 +1,47 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    flex: 0 1 auto;
+    width: 200px;
+    height: 200px;
+   padding: 20px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 200px;
+}
+
+.back-drop {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: opacity 0.3s ease-out;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.modal {
+    position: absolute;
+    top: 10px;
+    left: calc(100% - 70%);
+    width: 40%;
+    z-index: 106;
+}
+
+.modal h1 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.modal img {
+    width: 100%;
+}
