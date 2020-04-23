@@ -1,3 +1,10 @@
+.app-title {
+    color: #56a8c2;
+    text-align: center;
+    padding: 15px;
+    font-family: cursive;
+    font-size: 45px;
+}
 .image-container {
     display: flex;
     flex-wrap: wrap;
